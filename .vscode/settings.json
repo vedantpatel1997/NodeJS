@@ -1,4 +1,8 @@
 {
     "appService.defaultWebAppToDeploy": "undefined/subscriptions/f72dc808-adb3-45e6-a4df-03437097bd04/resourceGroups/NodeJsExpressAppWinVPRG/providers/Microsoft.Web/sites/NodeJsExpressAppWinVP",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }
